@@ -1,15 +1,26 @@
+    .contact-flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    }
+
+    .form-style {
+        width: 100%;
+    }
+
     .contact {
     background-color: $bg-color-2;
     padding: 100px 0;
-    font-size: 1.2rem;
+    width: 100%;    
 
     img {
-            margin-left: 25px;
-            margin-top: 25px;
-            margin-bottom: -30px;
-            width: 10%;
+        margin-left: 25px;
+        margin-top: 25px;
+        margin-bottom: -30px;
+        width: 40%;
+        box-shadow: -30px 30px 1px -15px $accent-color;
+        margin: 10%;
     }
-        
 
     p {
         text-align: left;

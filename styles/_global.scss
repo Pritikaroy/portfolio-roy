@@ -28,6 +28,7 @@ h4 {
         font-family: $main-font;
         color: $accent-color;
         font-size: 2rem;
+        text-shadow: 2px 2px 2px $accent-color;
     }
 p {
     font-family: $second-font;

@@ -166,10 +166,12 @@
 
       <!-- PORTFOLIO ITEMS SECTION STARTS -->
       <section class="portfolio wrapper" id="portfolio">
+        <h3>Portfolio</h3>
         <div class="portfolio-flex">
-          <h3>Portfolio</h3>
+          
           <!-- PROJECT 1 -->
           <div class="portfolio__content">
+            <h4>Grit App</h4>
             <div class="portfolio__content--img" data-aos="fade-right">
               <img
                 src="assets/Grit-App.png"
@@ -177,7 +179,7 @@
               />
             </div>
             <div class="portfolio__content--text-right" data-aos="fade-left">
-              <h4>Grit App</h4>
+              
               <p>
                 Project Description: JavaScript App using the jQuery library in
                 order to build an interactive site.
@@ -188,12 +190,12 @@
               </p>
               <p>Tools used:</p>
               <p>Javascript jQuery CSS3/SCSS Git</p>
-              <p>
+              <!-- <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi
                 dicta magni pariatur recusandae, aspernatur aperiam fugiat.
                 Repellendus obcaecati voluptatum architecto velit iste sunt ex
                 tenetur rem nesciunt ea. Possimus, fuga!
-              </p>
+              </p> -->
               <div class="portfolio__content--links">
                 <a
                   href="https://pritikaroy.github.io/pritikaRoyProjectThree/"
@@ -213,6 +215,7 @@
 
           <!-- PROJECT 2 -->
           <div class="portfolio__content">
+              <h4>Giphy App</h4>
             <div class="portfolio__content--img" data-aos="fade-left">
               <img
                 src="assets/React-App.png"
@@ -220,7 +223,6 @@
               />
             </div>
             <div class="portfolio__content--text-left" data-aos="fade-right">
-              <h4>Giphy App</h4>
               <p>
                 Project Description: JavaScript App using the React library to
                 create an interactive application.
@@ -232,12 +234,12 @@
               </p>
               <p>Tools used:</p>
               <p>React API CSS3/SCSS Git</p>
-              <p>
+              <!-- <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi
                 dicta magni pariatur recusandae, aspernatur aperiam fugiat.
                 Repellendus obcaecati voluptatum architecto velit iste sunt ex
                 tenetur rem nesciunt ea. Possimus, fuga!
-              </p>
+              </p> -->
               <div class="portfolio__content--links">
                 <a
                   href="https://pritikaroy.github.io/PritikaRoyGiphyApp/"
@@ -256,6 +258,7 @@
           </div>
           <!-- PROJECT 3 -->
           <div class="portfolio__content">
+              <h4>Concert Accountant App</h4>
             <div class="portfolio__content--img" data-aos="fade-right">
               <img
                 src="assets/Concert-Accountant-App.png"
@@ -263,10 +266,9 @@
               />
             </div>
             <div class="portfolio__content--text-right" data-aos="fade-left">
-              <h4>Concert Accountant App</h4>
               <p>
-                Project Description: We mimicked an agency environment. We
-                worked in small groups to build a simple web application for a
+                Project Description: We were asked to replicate an agency environment. We
+                worked in a group of 4 to build a simple web application for a
                 client. This project encompasses same complexity as our previous
                 React/API projects, but the focus was on delivering a
                 functional product, sticking to a timeline, and collaborating
@@ -274,12 +276,12 @@
               </p>
               <p>Tools used:</p>
               <p>React JavaScript API CSS3/SCSS Git</p>
-              <p>
+              <!-- <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi
                 dicta magni pariatur recusandae, aspernatur aperiam fugiat.
                 Repellendus obcaecati voluptatum architecto velit iste sunt ex
                 tenetur rem nesciunt ea. Possimus, fuga!
-              </p>
+              </p> -->
               <p>
                 Group programmed with
                 <a
@@ -319,11 +321,12 @@
       <!-- PORTFOLIO ITEMS SECTION ENDS -->
 
       <!-- SECTION CONTACT STARTS -->
-      <section class="contact" id="contact" data-aos="fade-in">
+      <section class="contact wrapper" id="contact" data-aos="fade-in">
+        <div class="contact-flex wrapper">
         <div class="about__contact--img" data-aos="fade-right">
           <img src="assets/about.jpg" alt="Head shot photo of Pritika." />
         </div>
-        <div class="wrapper">
+        <div class="form-style">
           <h3>Contact Me</h3>
           <p>
             Thank you for visiting my website! Drop me a line below to say Hi :
@@ -361,6 +364,7 @@
               <input type="submit" value="Send Message!" />
             </div>
           </form>
+        </div>
         </div>
       </section>
       <!-- CONTACT SECTION ENDS -->
@@ -460,7 +464,7 @@
         let typed = new Typed(".type", {
           strings: [
             "Front-End Web Developer.",
-            "dog Mom!",
+            "dog mom!",
             "puzzle enthusiast!"
           ],
           typeSpeed: 70,
@@ -470,7 +474,7 @@
         });
 
         $("a").smoothScroll({
-            speed: 2000
+            speed: 1000
         });
 
         $(".menu__burger, .navigation__menu").on("click", function() {
