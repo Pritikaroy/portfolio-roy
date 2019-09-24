@@ -608,7 +608,6 @@ a {
 
 .portfolio {
   padding: 5px 0;
-  border: 2px solid tomato;
   height: 90vh;
 }
 
@@ -619,13 +618,10 @@ a {
 .portfolio h4 {
   text-align: left;
   color: #2C3E50;
-  border: 2px solid tomato;
 }
 
 .portfolio img {
-  margin-left: 25px;
-  margin-top: 25px;
-  margin-bottom: -30px;
+  margin-bottom: 50px;
   width: 70%;
   -webkit-box-shadow: -25px 25px 1px -15px #BB9A60;
           box-shadow: -25px 25px 1px -15px #BB9A60;
@@ -636,7 +632,6 @@ a {
       -ms-flex-pack: left;
           justify-content: left;
   padding: 10px 0;
-  border: 2px solid yellowgreen;
 }
 
 .portfolio__content a.btn {
@@ -701,7 +696,7 @@ a {
 
 .contact {
   background-color: #f1f1f1;
-  padding: 100px 0;
+  padding: 120px 0;
   width: 100%;
 }
 
