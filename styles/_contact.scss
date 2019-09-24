@@ -1,0 +1,94 @@
+    .contact {
+    background-color: $bg-color-2;
+    padding: 100px 0;
+    font-size: 1.2rem;
+
+    img {
+            margin-left: 25px;
+            margin-top: 25px;
+            margin-bottom: -30px;
+            width: 10%;
+    }
+        
+
+    p {
+        text-align: left;
+        font-size: 1rem;
+        color: $accent-color;
+        margin-bottom: 50px;
+    }
+    
+    h3 {
+        text-align: left;
+    }
+
+    input[type="text"],
+    input[type="email"] {
+        width: 100%;
+        background-color: #fff;
+        margin-bottom: 2%;
+        color: #000;
+		font-family: inherit;
+		padding: 15px 20px;
+		border-radius: 5px;
+		border: none;
+        border-bottom: 7px solid transparent;
+        display: block;
+        
+        &:focus {
+			outline: none;
+			box-shadow: 0 10px 20px rgba($accent-color, .2);
+			border-bottom: 8px solid $accent-color;
+		}
+
+		&::-webkit-input-placeholder {
+			color: #000;
+        }
+    }
+
+    textarea {
+        width: 100%;
+        background-color: #fff;
+        color: #000;
+        border: none;
+        border-radius: 2px;
+        padding: 15px 20px;
+        border-bottom: 8px solid transparent;
+        resize: none;
+
+        &::-webkit-input-placeholder {
+			color: #000;
+        }
+
+        &:focus {
+			outline: none;
+			box-shadow: 0 10px 20px rgba($accent-color, .2);
+			border-bottom: 8px solid $accent-color;
+		}
+    }
+
+    input[type="submit"] {
+        border: none;
+        padding: 10px 20px;
+        background-color: $accent-color;
+        color: #fff;
+        margin-top: 50px;
+        text-align: center;
+
+        &:hover,
+        &:focus {
+            color: $accent-color;
+            background-color: darken($accent-color, 50%);
+            transition: all .3s;
+        }
+    }
+
+    .button {
+        text-align: left;
+        border-radius: 50px;
+    }
+
+    ::placeholder {
+        color: #000;
+    }
+}

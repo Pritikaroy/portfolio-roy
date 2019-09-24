@@ -1,0 +1,28 @@
+{
+    "particles": {
+        "number": {
+            "value": 34
+        },
+        "color": {
+            "value": "#2C3E50"
+        },
+        "shape": {
+            "type": "star" 
+        },
+        "opacity": {
+            "value": 0.7,
+            "random": true
+        },
+        "size": {
+            "value": 7,
+            "random": true
+        },
+        "line_linked": {
+            "enable": false
+        },
+        "move": {
+            "enable": true,
+            "speed": 0.9
+        }   
+    }
+}

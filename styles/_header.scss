@@ -1,0 +1,117 @@
+.header {
+    background-color: $bg-color-2;
+    min-height: 90vh;
+    background-size: cover;
+    background-attachment: fixed;
+    color: $accent-color;
+    font-family: $second-font;
+    z-index: 10;
+
+    &__content {
+        text-align: left;
+        position: absolute;
+        top: 40%;
+        left: 40%;
+        transform: translate(-50%, -50%);
+
+        h1 {
+            font-family: $main-font;
+            z-index: 10;
+            color: $accent-color;
+            font-size: 4rem;
+            line-height: 30px; 
+        }
+
+        a {
+        font-family: $main-font;
+        color: $accent-color;
+        font-size: 1.2rem;        
+    }
+    
+    }
+}
+
+.arrow {
+    width: 50px;
+    height: 50px;
+    margin-top: 5%;
+    background: $accent-color;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 100px;
+    left: 50%;
+    transform: translate(-50%);
+    text-align: center;
+    color: $bg-color;
+
+    i {
+        font-size: 1.5rem;
+        margin-top: 15px;
+    }
+
+    &:hover {
+        background-color: darken($accent-color, 50%);
+    }
+}
+
+.intro-pic {
+    background-color: $bg-color;
+    padding: 0px 0px 150px 150px;
+    margin: 100px 0 -100px 200px;
+    width: 60%;
+
+        img {
+            margin-left: 325px;
+            margin-top: 25px;
+            margin-bottom: -100px;
+            // border: 2px solid black;
+            box-shadow: 35px 35px 1px -10px $accent-color;
+            width: 70%;
+            height: 50%;
+        }
+    
+}
+
+//   media queries
+
+@media all and (max-width: 500px) {
+	.header {
+        h1 {
+            font-size: 2rem;
+        }
+
+        h2 {
+            font-size: 1rem;
+        }
+    }
+}
+
+@media all and (max-width: 900px) {
+	.about {
+        &__content {
+            flex-direction: column;
+            &--text {
+                width: 100%;
+                margin: 0 auto;
+                margin-top: 40px;
+            }
+
+            &--img {
+                width: 50%;
+                margin: 0 auto;
+            }
+
+        }
+    }
+}
+
+@media all and (max-width: 720px) {
+	.about {
+        &__content {
+
+            &--img {
+                width: 80%;
+            }
+        }
+    }
+}

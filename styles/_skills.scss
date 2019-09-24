@@ -1,0 +1,65 @@
+.skills {
+    background-color: $accent-color;
+    text-align: center;
+    padding: 100px 0;
+    h3 {
+        color: $bg-color;
+        padding-bottom: 20px;
+        font-family: $main-font;
+        border: 2px solid pink;
+        font-size: 3rem;
+        text-align: center;
+        display: flex;
+    }
+
+    &__list {
+        ul {
+            text-align: center;
+        }
+        li {
+            padding: 30px;
+            display: flex;
+            display: inline-block;
+            width: calc(100% / 7);
+            flex-wrap: wrap;
+            justify-content: center;
+            i {
+                font-size: 100px;
+                color: $bg-color;
+            }
+        }
+    }
+}
+
+@media all and (max-width: 950px) {
+	.skills {
+        &__list {
+            svg {
+                width: 50px;
+                height: 50px;
+            }
+            li {
+                width: calc(100% / 5);
+                i {
+                    font-size: 50px;
+                }
+            }
+        }
+    }
+}
+
+@media all and (max-width: 550px) {
+	.skills {
+        &__list {
+            svg {
+                width: 40px;
+                height: 40px;
+            }
+            li {
+                i {
+                    font-size: 40px;
+                }
+            }
+        }
+    }
+}
