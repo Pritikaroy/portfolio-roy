@@ -23,9 +23,15 @@ h3 {
         font-size: 3rem;
     }
 
+h4 {
+        font-family: $main-font;
+        color: $accent-color;
+        font-size: 2rem;
+    }
 p {
     font-family: $second-font;
-    font-size: 1.5rem;
+    color: $bg-color;
+    font-size: 1.4rem;
 }
 
 a {

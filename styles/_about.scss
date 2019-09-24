@@ -1,37 +1,47 @@
+.about-flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
 .about {
     background-color: $bg-color-2;
     padding: 100px 0;
+    height: 80vh;
+    border: 2px solid tomato;
+
 
     h3 {
         font-family: $main-font;
         color: $accent-color;
-        // border: 2px solid pink;
         font-size: 3rem;
         text-align: right;
+        border: 2px solid pink;
     }
 
     img {
         width: 100%;
         box-shadow: -30px 30px 1px -15px $accent-color;
+        margin: 10%;
+        
         }
     
     &__content {
-        display: flex;
+        
+        width: 30%;
         justify-content: center;
+
 
         &--img {
             width: 30%;
-            // border: 10px solid $accent-color;
             height: 30%;
         }
 
         &--text {
-            // width: 10%;
+            width:60%;
             font-family: $second-font;
-            font-size: 1.8rem;
-            text-align: right;
-            margin-left: 5%;
-            margin-top: -10px;
+            text-align: left;
+            // margin-left: 5%;
+            margin-top: -80px;
         }
     }
 }

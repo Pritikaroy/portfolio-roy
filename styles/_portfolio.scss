@@ -1,8 +1,13 @@
 .portfolio {
     padding: 100px 0;
+    border: 2px solid tomato;
 
     h3 {
         text-align: center;
+        font-family: $main-font;
+        color: $accent-color;
+        font-size: 3rem;
+
     }
 
     img {
@@ -16,6 +21,7 @@
         display: flex;
         justify-content: center;
         padding: 80px 0;
+        border: 2px solid yellowgreen;
 
         
 
@@ -24,14 +30,14 @@
             width: 50%;
         }
 
-        p:nth-of-type(1) {
-            color: $accent-color;
-            font-weight: 700;
-        }
+        // p:nth-of-type(1) {
+        //     color: $accent-color;
+        //     font-weight: 700;
+        // }
 
-        p:nth-of-type(2) {
-            font-size: 0.8rem;
-        }
+        // p:nth-of-type(2) {
+        //     font-size: 0.8rem;
+        // }
 
         &--text-right {
             padding-left: 5%;
@@ -45,9 +51,9 @@
             // @include link-btn-style;
         }
 
-        &:nth-of-type(2n) {
-            text-align: right;
-        }
+        // &:nth-of-type(2n) {
+        //     text-align: right;
+        // }
 
         .btn:hover,
         .btn:focus {

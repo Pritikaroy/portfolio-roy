@@ -1,9 +1,11 @@
 .skills {
-    background-color: $accent-color;
+    background-color: $bg-color-2;
     text-align: center;
     padding: 100px 0;
+    height: 80vh;
+
     h3 {
-        color: $bg-color;
+        color: $accent-color;
         padding-bottom: 20px;
         font-family: $main-font;
         border: 2px solid pink;
