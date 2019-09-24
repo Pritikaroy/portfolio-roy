@@ -74,13 +74,14 @@
 
     a {
         font-family: $main-font;
-        color: $bg-color-2;
+        color: $bg-color;
         list-style-type: none;
         padding: 20px;
+        background-color: $accent-color;
 
         &:hover,
         &:focus {
-        color: $bg-color;
+        color: $accent-color;
         }
     }
 

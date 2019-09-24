@@ -316,13 +316,14 @@ a {
 
 .navigation__menu a {
   font-family: "Montserrat", sans-serif;
-  color: #f1f1f1;
+  color: #2C3E50;
   list-style-type: none;
   padding: 20px;
+  background-color: #BB9A60;
 }
 
 .navigation__menu a:hover, .navigation__menu a:focus {
-  color: #2C3E50;
+  color: #BB9A60;
 }
 
 @media all and (max-width: 700px) {
