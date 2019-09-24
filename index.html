@@ -95,13 +95,12 @@
             Hi My name is Pritika, you can call me Pritz! I'm a front end web
             developer who has a knack for turning nothing into something. I
             combine my web development skills with my previous events management
-            experience to create accessible, and interactive applications. In my
+            experience to create accessible, and interactive applications.</p> <p>In my
             previous life I engaged in a professional background of Event &
             Business Management. My voyage into the world of web development
             started with coding a static website for my own company PRitzy
             Events. This glimmered a curiosity to solve glitches on a whole
-            diverse dimension of coding.
-          </p>
+            diverse dimension of coding.</p>
           <p>
             I care about people and building applications that impact their
             lives. I'm passionate about empowering women and giving back to my
@@ -167,7 +166,7 @@
 
       <!-- PORTFOLIO ITEMS SECTION STARTS -->
       <section class="portfolio wrapper" id="portfolio">
-        <div>
+        <div class="portfolio-flex">
           <h3>Portfolio</h3>
           <!-- PROJECT 1 -->
           <div class="portfolio__content">
@@ -214,6 +213,12 @@
 
           <!-- PROJECT 2 -->
           <div class="portfolio__content">
+            <div class="portfolio__content--img" data-aos="fade-left">
+              <img
+                src="assets/React-App.png"
+                alt="A photo of React App Project."
+              />
+            </div>
             <div class="portfolio__content--text-left" data-aos="fade-right">
               <h4>Giphy App</h4>
               <p>
@@ -248,12 +253,6 @@
                 >
               </div>
             </div>
-            <div class="portfolio__content--img" data-aos="fade-left">
-              <img
-                src="assets/React-App.png"
-                alt="A photo of React App Project."
-              />
-            </div>
           </div>
           <!-- PROJECT 3 -->
           <div class="portfolio__content">
@@ -269,7 +268,7 @@
                 Project Description: We mimicked an agency environment. We
                 worked in small groups to build a simple web application for a
                 client. This project encompasses same complexity as our previous
-                React/API projects, but the focus was on deflivering a
+                React/API projects, but the focus was on delivering a
                 functional product, sticking to a timeline, and collaborating
                 with my fellow developers on GitHub.
               </p>
@@ -439,9 +438,6 @@
     <!-- Sticky JS  -->
     <!-- <script type="text/javascript" src="js/jquery.sticky.js"></script> -->
 
-    <!-- Flickity JS  -->
-    <script src="/path/to/flickity.pkgd.min.js"></script>
-
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
     <!-- Typed JS  -->
@@ -451,7 +447,7 @@
     <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
 
     <!-- Smooth Scroll JS  -->
-    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-smooth-scroll/2.1.2/jquery.smooth-scroll.min.js"></script> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-smooth-scroll/2.1.2/jquery.smooth-scroll.min.js"></script>
 
     <!-- Fade in Animation JS -->
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
@@ -473,9 +469,9 @@
           loop: true
         });
 
-        // $("a").smoothScroll({
-        //     speed: 2000
-        // });
+        $("a").smoothScroll({
+            speed: 2000
+        });
 
         $(".menu__burger, .navigation__menu").on("click", function() {
           $(".menu__bg, .navigation__menu, .menu__burger").toggleClass("fs");

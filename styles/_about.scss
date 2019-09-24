@@ -7,29 +7,20 @@
     background-color: $bg-color-2;
     padding: 100px 0;
     height: 80vh;
-    border: 2px solid tomato;
-
 
     h3 {
-        font-family: $main-font;
-        color: $accent-color;
-        font-size: 3rem;
         text-align: right;
-        border: 2px solid pink;
     }
 
     img {
         width: 100%;
         box-shadow: -30px 30px 1px -15px $accent-color;
         margin: 10%;
-        
         }
     
     &__content {
-        
         width: 30%;
         justify-content: center;
-
 
         &--img {
             width: 30%;
@@ -37,11 +28,11 @@
         }
 
         &--text {
-            width:60%;
+            width: 60%;
             font-family: $second-font;
             text-align: left;
-            // margin-left: 5%;
-            margin-top: -80px;
+            margin-top: -90px;
+            line-height: 1.2;
         }
     }
 }

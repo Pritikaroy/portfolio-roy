@@ -207,6 +207,7 @@ h3 {
   font-family: "Montserrat", sans-serif;
   color: #BB9A60;
   font-size: 3rem;
+  text-shadow: 2px 2px 2px #2C3E50;
 }
 
 h4 {
@@ -219,6 +220,7 @@ p {
   font-family: "Lato", sans-serif;
   color: #2C3E50;
   font-size: 1.4rem;
+  line-height: 1.2;
 }
 
 a {
@@ -468,15 +470,10 @@ a {
   background-color: #f1f1f1;
   padding: 100px 0;
   height: 80vh;
-  border: 2px solid tomato;
 }
 
 .about h3 {
-  font-family: "Montserrat", sans-serif;
-  color: #BB9A60;
-  font-size: 3rem;
   text-align: right;
-  border: 2px solid pink;
 }
 
 .about img {
@@ -502,7 +499,8 @@ a {
   width: 60%;
   font-family: "Lato", sans-serif;
   text-align: left;
-  margin-top: -80px;
+  margin-top: -90px;
+  line-height: 1.2;
 }
 
 .talk {
@@ -542,19 +540,12 @@ a {
   background-color: #f1f1f1;
   text-align: center;
   padding: 100px 0;
-  height: 80vh;
+  height: 85vh;
 }
 
 .skills h3 {
-  color: #BB9A60;
   padding-bottom: 20px;
-  font-family: "Montserrat", sans-serif;
-  border: 2px solid pink;
-  font-size: 3rem;
-  text-align: center;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  text-align: left;
 }
 
 .skills__list ul {
@@ -562,10 +553,7 @@ a {
 }
 
 .skills__list li {
-  padding: 30px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  padding: 30px 80px 20px 50px;
   display: inline-block;
   width: calc(100% / 7);
   -ms-flex-wrap: wrap;
@@ -576,7 +564,7 @@ a {
 }
 
 .skills__list li i {
-  font-size: 100px;
+  font-size: 110px;
   color: #2C3E50;
 }
 
@@ -603,16 +591,24 @@ a {
   }
 }
 
+.portfolio-flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
 .portfolio {
-  padding: 100px 0;
+  padding: 50px 0;
   border: 2px solid tomato;
+  height: 85vh;
 }
 
 .portfolio h3 {
   text-align: center;
-  font-family: "Montserrat", sans-serif;
-  color: #BB9A60;
-  font-size: 3rem;
 }
 
 .portfolio img {
@@ -623,26 +619,17 @@ a {
 }
 
 .portfolio__content {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -webkit-box-pack: left;
+      -ms-flex-pack: left;
+          justify-content: left;
   padding: 80px 0;
   border: 2px solid yellowgreen;
 }
 
-.portfolio__content--text-right, .portfolio__content--text-left {
-  width: 50%;
-}
-
-.portfolio__content--text-right {
-  padding-left: 5%;
-}
-
-.portfolio__content--text-left {
-  padding-right: 5%;
+.portfolio__content a.btn {
+  padding: 10px 20px;
+  background-color: #BB9A60;
+  border-radius: 5px;
 }
 
 .portfolio__content .btn:hover,
@@ -771,7 +758,7 @@ a {
   transition: all .3s;
 }
 
-.contact .button {
+.contact .btn {
   text-align: left;
   border-radius: 50px;
 }
