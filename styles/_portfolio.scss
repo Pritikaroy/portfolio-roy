@@ -12,7 +12,6 @@
 
     h4{
         text-align: left; 
-        
         color: $bg-color;
         width: 50%;
     }
@@ -54,14 +53,14 @@
         // }
 
         a.btn {
-            padding: 10px 20px;
+            padding: 10px 10px 10px 10px;
             background-color: $accent-color;
             color: #fff;
         }
 
-        &:nth-of-type(2n) {
-            text-align: right;
-        }
+        // &:nth-of-type(2n) {
+        //     text-align: right;
+        // }
 
         .btn:hover,
         .btn:focus {
@@ -80,6 +79,8 @@
     }
     i{
         font-size: 3rem;
+        padding: 10px;
+        justify-content: left;
         color: $bg-color;
     }
 }
