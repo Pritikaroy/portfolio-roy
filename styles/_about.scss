@@ -47,32 +47,32 @@
     }
 }
 
-@media all and (max-width: 900px) {
-	.about {
-        &__content {
-            flex-direction: column;
-            &--text {
-                width: 100%;
-                margin: 0 auto;
-                margin-top: 40px;
-            }
+// @media all and (max-width: 900px) {
+// 	.about {
+//         &__content {
+//             flex-direction: column;
+//             &--text {
+//                 width: 100%;
+//                 margin: 0 auto;
+//                 margin-top: 40px;
+//             }
 
-            &--img {
-                width: 50%;
-                margin: 0 auto;
-            }
+//             &--img {
+//                 width: 50%;
+//                 margin: 0 auto;
+//             }
 
-        }
-    }
-}
+//         }
+//     }
+// }
 
-@media all and (max-width: 720px) {
-	.about {
-        &__content {
+// @media all and (max-width: 720px) {
+// 	.about {
+//         &__content {
 
-            &--img {
-                width: 80%;
-            }
-        }
-    }
-}
+//             &--img {
+//                 width: 80%;
+//             }
+//         }
+//     }
+// }

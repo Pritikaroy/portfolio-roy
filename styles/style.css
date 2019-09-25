@@ -428,6 +428,10 @@ a {
   .header h2 {
     font-size: 1rem;
   }
+  .header img {
+    width: 10%;
+    margin-left: -100px;
+  }
 }
 
 @media all and (max-width: 900px) {
@@ -512,30 +516,6 @@ a {
 
 .talk:hover {
   font-weight: 700;
-}
-
-@media all and (max-width: 900px) {
-  .about__content {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-  }
-  .about__content--text {
-    width: 100%;
-    margin: 0 auto;
-    margin-top: 40px;
-  }
-  .about__content--img {
-    width: 50%;
-    margin: 0 auto;
-  }
-}
-
-@media all and (max-width: 720px) {
-  .about__content--img {
-    width: 80%;
-  }
 }
 
 .skills {
