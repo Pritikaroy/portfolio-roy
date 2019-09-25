@@ -1,12 +1,12 @@
 .skills {
     background-color: $bg-color-2;
     text-align: center;
-    padding: 100px 0;
-    height: 85vh;
+    padding: 100px 0px;
+    height: 65vh;
 
     h3 {
         padding-bottom: 20px;
-        text-align: left;
+        text-align: center;
     }
 
     &__list {
@@ -20,7 +20,7 @@
             flex-wrap: wrap;
             justify-content: center;
             i {
-                font-size: 110px;
+                font-size: 4rem;
                 color: $bg-color;
             }
         }

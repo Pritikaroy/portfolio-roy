@@ -8,6 +8,30 @@
         width: 100%;
     }
 
+    .links {
+        // bottom: 20px;
+        // right:20px;
+        // position: fixed;
+        li{
+            list-style-type: none;
+            display: inline-block;
+            padding: 0 20px 0 20px;
+
+        }
+        i {
+            font-size: 2rem;
+            color: $accent-color;
+        }
+
+        a:focus,
+        a:hover {
+            transform: scale(1.2);
+            color: $bg-color-2;
+            transition: all .5s;
+        }
+    }
+
+
     .contact {
     background-color: $bg-color-2;
     padding: 120px 0;
@@ -62,7 +86,7 @@
         background-color: #fff;
         color: #000;
         border: none;
-        border-radius: 2px;
+        // border-radius: 2px;
         padding: 15px 20px;
         border-bottom: 8px solid transparent;
         resize: none;
@@ -96,7 +120,7 @@
 
     .btn {
         text-align: left;
-        border-radius: 50px;
+        // border-radius: 50px;
     }
 
     ::placeholder {
