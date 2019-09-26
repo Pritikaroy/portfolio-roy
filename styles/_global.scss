@@ -17,6 +17,17 @@ body {
     background-color: $bg-color-2;
 }
 
+h1 {
+    font-size: 4rem;
+    font-family: $main-font;
+    color: $accent-color;
+}
+
+h2 {
+    font-size: 2.3rem;
+    font-family: $main-font;
+    color: $accent-color;
+}
 h3 {
         font-family: $main-font;
         color: $accent-color;
@@ -52,4 +63,22 @@ a {
 //     top: 10%;
 //     z-index: -1;
 // }
+
+@media all and (max-width: 500px) {
+    h1 {
+        font-size: 2rem;
+        }
+
+    h2 {
+        font-size: 2rem;
+        }
+    h3{
+        font-size: 1.5rem;
+    }
+
+    h4{
+        font-size: 1rem;
+    }
+}
+
 

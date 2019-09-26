@@ -1,509 +1,513 @@
-    <!DOCTYPE html>
-    <html lang="en">
-    <head>
-        <title>Pritika Roy | Web Developer</title>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <meta
-        name="description"
-        content="Pritika is an enthusiastic Event Planner turned passionate Web Developer. In her previous life she engaged in a professional background of Event & Business Management. Her voyage into the world of web development started with coding a static website for her own her company PRitzy Events. This glimmered a curiosity to solve glitches on a whole diverse dimension of coding. As a graduate of the Web Development Immersive Program at Juno (HackerYou) College of Technology, Pritika is fueled by the innate inquisitiveness to solve puzzles seamlessly blending her au natural talent to have an eye for engaging user experiences on a digital level."
-        />
-        <meta name="keywords" content="Portfolio, HTML, CSS, JavaScript" />
-        <meta name="author" content="Pritika Roy" />
-        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-        <!-- Put you own icon -->
-        <link rel="icon" data-emoji="🤙" type="image/png" />
-        <!-- Font Awesome -->
-        <script
-        src="https://kit.fontawesome.com/7fea2957e8.js"
-        crossorigin="anonymous"
-        ></script>
-        <!-- Devicon Icons  -->
-        <link
-        rel="stylesheet"
-        href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css"
-        />
-        <!-- Cross Browser Consistency -->
-        <link
-        rel="stylesheet"
-        href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css"
-        />
-        <!-- Google Fonts  -->
-        <link
-        href="https://fonts.googleapis.com/css?family=Lato|Montserrat:600,700&display=swap"
-        rel="stylesheet"
-        />
-        <!-- Animation -->
-        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
-        <!-- CSS Style  -->
-        <link rel="stylesheet" href="styles/style.css" />
-    </head>
-    <body>
-        <a href="#main_content" class="skip-link">Skip to main content.</a>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Pritika Roy | Web Developer</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Pritika is an enthusiastic Event Planner turned passionate Web Developer. In her previous life she engaged in a professional background of Event & Business Management. Her voyage into the world of web development started with coding a static website for her own her company PRitzy Events. This glimmered a curiosity to solve glitches on a whole diverse dimension of coding. As a graduate of the Web Development Immersive Program at Juno (HackerYou) College of Technology, Pritika is fueled by the innate inquisitiveness to solve puzzles seamlessly blending her au natural talent to have an eye for engaging user experiences on a digital level."
+    />
+    <meta name="keywords" content="Portfolio, HTML, CSS, JavaScript" />
+    <meta name="author" content="Pritika Roy" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <!-- Put you own icon -->
+    <link rel="icon" data-emoji="🤙" type="image/png" />
+    <!-- Font Awesome -->
+    <script
+      src="https://kit.fontawesome.com/7fea2957e8.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Devicon Icons  -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css"
+    />
+    <!-- Cross Browser Consistency -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css"
+    />
+    <!-- Google Fonts  -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Lato|Montserrat:600,700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Animation -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <!-- CSS Style  -->
+    <link rel="stylesheet" href="styles/style.css" />
+  </head>
+  <body>
+    <a href="#main_content" class="skip-link">Skip to main content.</a>
 
-        <!-- <div class="wrapper">
+    <!-- <div class="wrapper">
                             <div class="loader">
                                 <img src="" alt="Site is loading">
                             </div> -->
 
-        <!-- HEADER -->
-        <header class="header wrapper" id="home">
+    <!-- HEADER -->
+    <header class="header wrapper" id="home">
+      <nav class="navigation">
+        <div class="menu__bg"></div>
+        <div class="menu__burger">☰</div>
+        <ul class="navigation__menu">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About Me</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="logo">
         <img src="assets/logo.png" alt="Pritika Roy's Logo" />
-        <div>
-            <nav class="navigation">
-            <div class="menu__bg"></div>
-            <div class="menu__burger">☰</div>
-            <ul class="navigation__menu">
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About Me</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#portfolio">Portfolio</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-            </nav>
-            <div class="header__content">
+      </div>
+
+      <div class="header-flex">
+        <div class="header__content">
             <h1>Pritika Roy</h1>
             <h2>I am a <span class="type"></span></h2>
-            <!-- <a href="assets/PritikaRoyResumeMain.pdf" download target="_blank"
+          <div class="intro-pic">
+            <img src="assets/photo1.JPG" alt="Head shot photo of Pritika." />
+          </div>
+          
+          <!-- <a href="assets/PritikaRoyResumeMain.pdf" download target="_blank"
                             >Download CV</a
                         > -->
-            </div>
-            <div class="scroll">
-            <a class="arrow" href="#about">
-                <i class="fas fa-chevron-down"></i>
-            </a>
-            </div>
-            <div class="intro-pic">
-            <img src="assets/photo1.JPG" alt="Head shot photo of Pritika." />
-            </div>
         </div>
-        </header>
-        <!-- HEADER ENDS -->
+        <div class="scroll">
+          <a class="arrow" href="#about">
+            <i class="fas fa-chevron-down"></i>
+          </a>
+        </div>
+      </div>
+    </header>
+    <!-- HEADER ENDS -->
 
-        <main id="main_content">
-        <!-- ABOUT SECTION BEGINS -->
+    <main id="main_content">
+      <!-- ABOUT SECTION BEGINS -->
 
-        <section class="wrapper about" id="about">
-            <div class="about-flex">
-            <div class="about__content--img" data-aos="fade-right">
-                <img src="assets/jojo.JPG" alt="Head shot photo of Pritika." />
-            </div>
+      <section class="wrapper about" id="about">
+        <div class="about-flex">
+          <div class="about__content--img" data-aos="fade-right">
+            <img src="assets/jojo.JPG" alt="Head shot photo of Pritika." />
+          </div>
 
-            <div class="about__content--text" data-aos="fade-left">
-                <h3>About Me</h3>
+          <div class="about__content--text" data-aos="fade-left">
+            <h3>About Me</h3>
 
-                <p>
-                Hi there! My name is Pritika, you can call me Pritz! I'm a front
-                end web developer who has a knack for turning nothing into
-                something. I combine my web development skills with my previous
-                events management experience to create accessible, and interactive
-                applications.
-                </p>
-                <!-- <p>
+            <p>
+              Hi there! My name is Pritika, you can call me Pritz! I'm a front
+              end web developer who has a knack for turning nothing into
+              something. I combine my web development skills with my previous
+              events management experience to create accessible, and interactive
+              applications.
+            </p>
+            <!-- <p>
                     In my previous life I engaged in a professional background of
                     Event & Business Management. My voyage into the world of web
                     development started with coding a static website for my own
                     company PRitzy Events. This glimmered a curiosity to solve
                     glitches on a whole diverse dimension of coding.
                     </p> -->
-                <p>
-                I care about people and building applications that impact their
-                lives. I'm passionate about empowering women and giving back to my
-                community.
-                </p>
-                <!-- <p>
+            <p>
+              I care about people and building applications that impact their
+              lives. I'm passionate about empowering women and giving back to my
+              community.
+            </p>
+            <!-- <p>
                     As a graduate of the Web Development Immersive Program a Juno
                     (HackerYou) College of Technology, I am fueled by the innate
                     inquisitiveness to solve puzzles along with seamlessly blending my
                     au natural talent to have an eye for engaging user experiences on
                     a digital level.
                     </p> -->
-                <p>
-                When I am not surfing the web dev world, you will surely find me
-                lounging with my four legged fur-ball baby.
-                </p>
-                <!-- <a href="#contact" class="talk">Contact Me</a> -->
-            </div>
-            </div>
-        </section>
+            <p>
+              When I am not surfing the web dev world, you will surely find me
+              lounging with my four legged fur-ball baby.
+            </p>
+            <!-- <a href="#contact" class="talk">Contact Me</a> -->
+          </div>
+        </div>
+      </section>
 
-        <!-- ABOUT SECTION ENDS -->
+      <!-- ABOUT SECTION ENDS -->
 
-        <!-- SKILLS SECTION STARTS -->
-        <section class="skills wrapper" id="skills">
-            <div class="wrapper">
-            <h3>Technical Skills</h3>
-            <div class="skills__list" data-aos="fade-up">
+      <!-- SKILLS SECTION STARTS -->
+      <section class="skills wrapper" id="skills">
+        <div class="wrapper">
+          <h3>Technical Skills</h3>
+          <div class="skills__list" data-aos="fade-up">
+            <ul>
+              <li>
+                <i class="devicon-html5-plain-wordmark" aria-hidden="true"></i>
+              </li>
+              <li>
+                <i class="devicon-css3-plain-wordmark" aria-hidden="true"></i>
+              </li>
+              <li><i class="devicon-sass-original" aria-hidden="true"></i></li>
+              <li>
+                <i class="devicon-javascript-plain" aria-hidden="true"></i>
+              </li>
+              <li>
+                <i class="devicon-jquery-plain-wordmark" aria-hidden="true"></i>
+              </li>
+              <li>
+                <i
+                  class="devicon-react-original-wordmark"
+                  aria-hidden="true"
+                ></i>
+              </li>
+              <li>
+                <i class="devicon-github-plain-wordmark" aria-hidden="true"></i>
+              </li>
+              <li><i class="devicon-nodejs-plain" aria-hidden="true"></i></li>
+              <li>
+                <i class="devicon-visualstudio-plain" aria-hidden="true"></i>
+              </li>
+              <li><i class="devicon-atom-original" aria-hidden="true"></i></li>
+              <li><i class="devicon-devicon-plain" aria-hidden="true"></i></li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <!-- SKILLS SECTION ENDS -->
+
+      <!-- PORTFOLIO ITEMS SECTION STARTS -->
+
+      <section class="portfolio" id="portfolio">
+        <div class="wrapper">
+          <h3>Portfolio</h3>
+          <!-- PROJECT 1 -->
+          <h4>Concert Accountant App</h4>
+          <div class="portfolio__content portfolio-flex">
+            <div class="portfolio__content--img" data-aos="fade-right">
+              <img
+                src="assets/Concert-Accountant-App.png"
+                alt="A photo of Concert Account App Project."
+              />
+            </div>
+            <div class="portfolio__content--text-right" data-aos="fade-left">
+              <p>
+                A concert budget app to help you search events using the
+                Ticketmaster API and add or remove the items you choose. Once
+                you reach your set budget you can publish your list using
+                Firebase. Built with four awesome developers, cultivating the
+                power of React and delivering a fully responsive app for a
+                complete user experience. Group programmed with
+                <a
+                  href="https://www.jeffrudd.dev"
+                  target="_blank"
+                  class="direct"
+                  >Jeff</a
+                >,
+                <a
+                  href="http://www.alexawolo.com/"
+                  target="_blank"
+                  class="direct"
+                  >Alexa</a
+                >, and
+                <a href="http://mattdcodes.com/" target="_blank" class="direct"
+                  >Matt</a
+                >.
+              </p>
+
+              <div class="portfolio__content--img" data-aos="fade-right">
+                <a
+                  href="https://github.com/concert-accountant/projectSixConcertAccountant"
+                  target="_blank"
+                ></a>
+              </div>
+              <div class="recent-work-info">
                 <ul>
-                <li>
-                    <i class="devicon-html5-plain-wordmark" aria-hidden="true"></i>
-                </li>
-                <li>
-                    <i class="devicon-css3-plain-wordmark" aria-hidden="true"></i>
-                </li>
-                <li><i class="devicon-sass-original" aria-hidden="true"></i></li>
-                <li>
-                    <i class="devicon-javascript-plain" aria-hidden="true"></i>
-                </li>
-                <li>
-                    <i class="devicon-jquery-plain-wordmark" aria-hidden="true"></i>
-                </li>
-                <li>
-                    <i
-                    class="devicon-react-original-wordmark"
-                    aria-hidden="true"
-                    ></i>
-                </li>
-                <li>
-                    <i class="devicon-github-plain-wordmark" aria-hidden="true"></i>
-                </li>
-                <li><i class="devicon-nodejs-plain" aria-hidden="true"></i></li>
-                <li>
-                    <i class="devicon-visualstudio-plain" aria-hidden="true"></i>
-                </li>
-                <li><i class="devicon-atom-original" aria-hidden="true"></i></li>
-                <li><i class="devicon-devicon-plain" aria-hidden="true"></i></li>
+                  <li><i class="fab fa-html5"></i></li>
+                  <li><i class="fab fa-css3-alt"></i></li>
+                  <li><i class="fab fa-sass"></i></li>
+                  <li><i class="fab fa-js-square"></i></li>
+                  <li><i class="fab fa-react"></i></li>
                 </ul>
-            </div>
-            </div>
-        </section>
-        <!-- SKILLS SECTION ENDS -->
-
-        <!-- PORTFOLIO ITEMS SECTION STARTS -->
-
-        <section class="portfolio" id="portfolio">
-            <div class="wrapper">
-            <h3>Portfolio</h3>
-            <!-- PROJECT 1 -->
-            <h4>Concert Accountant App</h4>
-            <div class="portfolio__content portfolio-flex">
-                <div class="portfolio__content--img" data-aos="fade-right">
-                <img
-                    src="assets/Concert-Accountant-App.png"
-                    alt="A photo of Concert Account App Project."
-                />
-                </div>
-                <div class="portfolio__content--text-right" data-aos="fade-left">
-                <p>
-                    A concert budget app to help you search events using the
-                    Ticketmaster API and add or remove the items you choose. Once
-                    you reach your set budget you can publish your list using
-                    Firebase. Built with four awesome developers, cultivating the
-                    power of React and delivering a fully responsive app for a
-                    complete user experience. Group programmed with
-                    <a
-                    href="https://www.jeffrudd.dev"
-                    target="_blank"
-                    class="direct"
-                    >Jeff</a
-                    >,
-                    <a
-                    href="http://www.alexawolo.com/"
-                    target="_blank"
-                    class="direct"
-                    >Alexa</a
-                    >, and
-                    <a href="http://mattdcodes.com/" target="_blank" class="direct"
-                    >Matt</a
-                    >.
-                </p>
-
-                <div class="portfolio__content--img" data-aos="fade-right">
-                    <a
+                <div class="portfolio__content--links">
+                  <a
                     href="https://github.com/concert-accountant/projectSixConcertAccountant"
                     target="_blank"
-                    ></a>
+                    class="btn"
+                    >GitHub</a
+                  >
+                  <a
+                    href="https://concertaccountant.firebaseapp.com/"
+                    target="_blank"
+                    class="btn"
+                    >Live Site</a
+                  >
                 </div>
-                <div class="recent-work-info">
-                    <ul>
-                    <li><i class="fab fa-html5"></i></li>
-                    <li><i class="fab fa-css3-alt"></i></li>
-                    <li><i class="fab fa-sass"></i></li>
-                    <li><i class="fab fa-js-square"></i></li>
-                    <li><i class="fab fa-react"></i></li>
-                    </ul>
-                    <div class="portfolio__content--links">
-                    <a
-                        href="https://github.com/concert-accountant/projectSixConcertAccountant"
-                        target="_blank"
-                        class="btn"
-                        >GitHub</a
-                    >
-                    <a
-                        href="https://concertaccountant.firebaseapp.com/"
-                        target="_blank"
-                        class="btn"
-                        >Live Site</a
-                    >
-                    </div>
-                </div>
-                </div>
+              </div>
             </div>
-            <!-- PROJECT 2 -->
-            <h4>Grit App</h4>
-            <div class="portfolio__content portfolio-flex">
-                <div class="portfolio__content--img" data-aos="fade-right">
-                <img
-                    src="assets/Grit-App.png"
-                    alt="A screenshot of Pritika's Grit App Website."
-                />
-                </div>
-                <div class="portfolio__content--text-right" data-aos="fade-left">
-                <p>
-                    A JavaScript App using the jQuery library that delivers daily
-                    Grit motivation for a user.
-                </p>
+          </div>
+          <!-- PROJECT 2 -->
+          <h4>Grit App</h4>
+          <div class="portfolio__content portfolio-flex">
+            <div class="portfolio__content--img" data-aos="fade-right">
+              <img
+                src="assets/Grit-App.png"
+                alt="A screenshot of Pritika's Grit App Website."
+              />
+            </div>
+            <div class="portfolio__content--text-right" data-aos="fade-left">
+              <p>
+                A JavaScript App using the jQuery library that delivers daily
+                Grit motivation for a user.
+              </p>
 
-                <div class="recent-work-info">
-                    <ul>
-                    <li><i class="fab fa-html5"></i></li>
-                    <li><i class="fab fa-css3-alt"></i></li>
-                    <li><i class="fab fa-sass"></i></li>
-                    <li><i class="fab fa-js-square"></i></li>
-                    <li><i class="devicon-jquery-plain"></i></li>
-                    </ul>
-                    <div class="portfolio__content--links">
-                    <a
-                        href="https://github.com/Pritikaroy/pritikaRoyProjectThree"
-                        target="_blank"
-                        class="btn"
-                        >GitHub</a
-                    >
-                    <a
-                        href="https://pritikaroy.github.io/pritikaRoyProjectThree/"
-                        target="_blank"
-                        class="btn"
-                        >Live Site</a
-                    >
-                    </div>
-                </div>
-                </div>
-            </div>
-            <!-- PROJECT 3 -->
-            <h4>Giphy App</h4>
-            <div class="portfolio__content portfolio-flex">
-                <div class="portfolio__content--img" data-aos="fade-right">
-                <img
-                    src="assets/React-App.png"
-                    alt="A screenshot of Pritika's Giphy App."
-                />
-                </div>
-                <div class="portfolio__content--text-right" data-aos="fade-left">
-                <p>
-                    A Giphy Generator app built using Giphy API,JavaScript and
-                    powered with React library to create an interactive website.
-                </p>
-
-                <div class="recent-work-info">
-                    <ul>
-                    <li><i class="fab fa-css3-alt"></i></li>
-                    <li><i class="fab fa-js-square"></i></li>
-                    <li><i class="fab fa-react"></i></li>
-                    </ul>
-                    <div class="portfolio__content--links">
-                    <a
-                        href="https://github.com/Pritikaroy/PritikaRoyGiphyApp"
-                        target="_blank"
-                        class="btn"
-                        >GitHub</a
-                    >
-                    <a
-                        href="https://pritikaroy.github.io/PritikaRoyGiphyApp/"
-                        target="_blank"
-                        class="btn"
-                        >Live Site</a
-                    >
-                    </div>
-                </div>
-                </div>
-            </div>
-            </div>
-        </section>
-        <!-- PORTFOLIO ITEMS SECTION ENDS -->
-
-        <!-- SECTION CONTACT STARTS -->
-        <section class="contact wrapper" id="contact" data-aos="fade-in">
-            <div class="contact-flex wrapper">
-            <div class="about__contact--img" data-aos="fade-right">
-                <img src="assets/about.jpg" alt="Head shot photo of Pritika." />
-            </div>
-            <div class="form-style">
-                <h3>Contact Me</h3>
-                <div class="links">
+              <div class="recent-work-info">
                 <ul>
-                    <!-- <li>
+                  <li><i class="fab fa-html5"></i></li>
+                  <li><i class="fab fa-css3-alt"></i></li>
+                  <li><i class="fab fa-sass"></i></li>
+                  <li><i class="fab fa-js-square"></i></li>
+                  <li><i class="devicon-jquery-plain"></i></li>
+                </ul>
+                <div class="portfolio__content--links">
+                  <a
+                    href="https://github.com/Pritikaroy/pritikaRoyProjectThree"
+                    target="_blank"
+                    class="btn"
+                    >GitHub</a
+                  >
+                  <a
+                    href="https://pritikaroy.github.io/pritikaRoyProjectThree/"
+                    target="_blank"
+                    class="btn"
+                    >Live Site</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- PROJECT 3 -->
+          <h4>Giphy App</h4>
+          <div class="portfolio__content portfolio-flex">
+            <div class="portfolio__content--img" data-aos="fade-right">
+              <img
+                src="assets/React-App.png"
+                alt="A screenshot of Pritika's Giphy App."
+              />
+            </div>
+            <div class="portfolio__content--text-right" data-aos="fade-left">
+              <p>
+                A Giphy Generator app built using Giphy API,JavaScript and
+                powered with React library to create an interactive website.
+              </p>
+
+              <div class="recent-work-info">
+                <ul>
+                  <li><i class="fab fa-css3-alt"></i></li>
+                  <li><i class="fab fa-js-square"></i></li>
+                  <li><i class="fab fa-react"></i></li>
+                </ul>
+                <div class="portfolio__content--links">
+                  <a
+                    href="https://github.com/Pritikaroy/PritikaRoyGiphyApp"
+                    target="_blank"
+                    class="btn"
+                    >GitHub</a
+                  >
+                  <a
+                    href="https://pritikaroy.github.io/PritikaRoyGiphyApp/"
+                    target="_blank"
+                    class="btn"
+                    >Live Site</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- PORTFOLIO ITEMS SECTION ENDS -->
+
+      <!-- SECTION CONTACT STARTS -->
+      <section class="contact wrapper" id="contact" data-aos="fade-in">
+        <div class="contact-flex wrapper">
+          <div class="about__contact--img" data-aos="fade-right">
+            <img src="assets/about.jpg" alt="Head shot photo of Pritika." />
+          </div>
+          <div class="form-style">
+            <h3>Contact Me</h3>
+            <div class="links">
+              <ul>
+                <!-- <li>
                     <a href="#home">
                         <i class="fas fa-arrow-up"></i>
                         <span class="visuallyHidden">Go up</span>
                     </a>
                     </li> -->
-                    <li>
-                    <a href="https://twitter.com/@Pritikaroy" target="_blank">
-                        <i class="fab fa-twitter"></i>
-                        <span class="visuallyHidden">Twitter</span>
-                    </a>
-                    </li>
-                    <li>
-                    <a href="https://github.com/Pritikaroy" target="_blank">
-                        <i class="fab fa-github"></i>
-                        <span class="visuallyHidden">Github</span>
-                    </a>
-                    </li>
-                    <li>
-                    <a href="https://medium.com/@pritikaroy" target="_blank">
-                        <i class="fab fa-medium"></i>
-                        <span class="visuallyHidden">Medium</span>
-                    </a>
-                    </li>
-                    <li>
-                    <a
-                        href="https://www.linkedin.com/in/pritikaroy/"
-                        target="_blank"
-                    >
-                        <i class="fab fa-linkedin-in"></i>
-                        <span class="visuallyHidden">Linkedin</span>
-                    </a>
-                    </li>
-                    <li>
-                    <a href="mailto:pritikaroy@gmail.com" target="_blank">
-                        <i class="fas fa-envelope-square"></i>
-                        <span class="visuallyHidden">Email</span>
-                    </a>
-                    </li>
-                </ul>
-                </div>
+                <li>
+                  <a href="https://twitter.com/@Pritikaroy" target="_blank">
+                    <i class="fab fa-twitter"></i>
+                    <span class="visuallyHidden">Twitter</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="https://github.com/Pritikaroy" target="_blank">
+                    <i class="fab fa-github"></i>
+                    <span class="visuallyHidden">Github</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="https://medium.com/@pritikaroy" target="_blank">
+                    <i class="fab fa-medium"></i>
+                    <span class="visuallyHidden">Medium</span>
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://www.linkedin.com/in/pritikaroy/"
+                    target="_blank"
+                  >
+                    <i class="fab fa-linkedin-in"></i>
+                    <span class="visuallyHidden">Linkedin</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="mailto:pritikaroy@gmail.com" target="_blank">
+                    <i class="fas fa-envelope-square"></i>
+                    <span class="visuallyHidden">Email</span>
+                  </a>
+                </li>
+              </ul>
+            </div>
 
-                <form
-                action="https://formspree.io/pritikaroy@gmail.com"
-                method="POST"
-                >
-                <label for="name" class="visuallyHidden">Name</label>
-                <input
-                    type="text"
-                    name="name"
-                    id="name"
-                    placeholder="Name"
-                    required
-                />
-                <label for="email" class="visuallyHidden">Email address</label>
-                <input
-                    type="email"
-                    name="email"
-                    id="email"
-                    placeholder="Email address"
-                    required
-                />
-                <label for="message" class="visuallyHidden">Message</label>
-                <textarea
-                    name="message"
-                    placeholder="Message"
-                    required
-                    rows="7"
-                ></textarea>
-                <div class="button">
-                    <input type="submit" value="Send Message!" />
-                </div>
-                </form>
-            </div>
-            </div>
-        </section>
-        <!-- CONTACT SECTION ENDS -->
-        </main>
-
-        <!-- FOOTER -->
-        <footer class="">
-        <div class="">
-            <div class="top">
-            <a class="up" href="#home">
-                <i class="fas fa-chevron-up"></i>
-                <span class="visuallyHidden">Go up</span>
-            </a>
-            </div>
-            <div>
-            <div class="copyright">
-                <div class="developed-by">
-                &copy; 2019 Developed with <i class="fa fa-heart"></i> by
-                <a href="https://www.linkedin.com/in/pritikaroy/" target="blank"
-                    >Pritika Roy</a
-                >
-                </div>
-            </div>
-            </div>
+            <form
+              action="https://formspree.io/pritikaroy@gmail.com"
+              method="POST"
+            >
+              <label for="name" class="visuallyHidden">Name</label>
+              <input
+                type="text"
+                name="name"
+                id="name"
+                placeholder="Name"
+                required
+              />
+              <label for="email" class="visuallyHidden">Email address</label>
+              <input
+                type="email"
+                name="email"
+                id="email"
+                placeholder="Email address"
+                required
+              />
+              <label for="message" class="visuallyHidden">Message</label>
+              <textarea
+                name="message"
+                placeholder="Message"
+                required
+                rows="7"
+              ></textarea>
+              <div class="button">
+                <input type="submit" value="Send Message!" />
+              </div>
+            </form>
+          </div>
         </div>
-        </footer>
+      </section>
+      <!-- CONTACT SECTION ENDS -->
+    </main>
 
-        <!-- FOOTER ENDS -->
+    <!-- FOOTER -->
+    <footer class="">
+      <div class="">
+        <div class="top">
+          <a class="up" href="#home">
+            <i class="fas fa-chevron-up"></i>
+            <span class="visuallyHidden">Go up</span>
+          </a>
+        </div>
+        <div>
+          <div class="copyright">
+            <div class="developed-by">
+              &copy; 2019 Developed with <i class="fa fa-heart"></i> by
+              <a href="https://www.linkedin.com/in/pritikaroy/" target="blank"
+                >Pritika Roy</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
 
-        <!-- LOAD JAVASCRIPT      -->
+    <!-- FOOTER ENDS -->
 
-        <!-- Smart Menu  -->
-        <script type="text/javascript" src="js/jquery.smartmenus.min.js"></script>
+    <!-- LOAD JAVASCRIPT      -->
 
-        <!-- Flickity for Portfolio  -->
-        <!-- <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script> -->
+    <!-- Smart Menu  -->
+    <script type="text/javascript" src="js/jquery.smartmenus.min.js"></script>
 
-        <!-- Sticky JS  -->
-        <!-- <script type="text/javascript" src="js/jquery.sticky.js"></script> -->
+    <!-- Flickity for Portfolio  -->
+    <!-- <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script> -->
 
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <!-- Sticky JS  -->
+    <!-- <script type="text/javascript" src="js/jquery.sticky.js"></script> -->
 
-        <!-- Typed JS  -->
-        <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.9"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
-        <!-- Particles JS on Header  -->
-        <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <!-- Typed JS  -->
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.9"></script>
 
-        <!-- Smooth Scroll JS  -->
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-smooth-scroll/2.1.2/jquery.smooth-scroll.min.js"></script>
+    <!-- Particles JS on Header  -->
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
 
-        <!-- Fade in Animation JS -->
-        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-        <script src="https://cdn.jsdelivr.net/npm/sweetalert2@8"></script>
+    <!-- Smooth Scroll JS  -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-smooth-scroll/2.1.2/jquery.smooth-scroll.min.js"></script>
 
-        <script>
-        // particlesJS.load("home", "js/particles.json", function() {});
+    <!-- Fade in Animation JS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@8"></script>
 
-        $(function() {
-            let typed = new Typed(".type", {
-            strings: [
-                "Front-End Web Developer.",
-                "dog mom!",
-                "puzzle enthusiast!"
-            ],
-            typeSpeed: 70,
-            backDelay: 1200,
-            backSpeed: 43,
-            loop: true
-            });
+    <script>
+      // particlesJS.load("home", "js/particles.json", function() {});
 
-            $("a").smoothScroll({
-            speed: 1000
-            });
-
-            $(".menu__burger, .navigation__menu").on("click", function() {
-            $(".menu__bg, .navigation__menu, .menu__burger").toggleClass("fs");
-            $(".menu__burger").text() == "☰"
-                ? $(".menu__burger").text("✕")
-                : $(".menu__burger").text("☰");
-            });
-
-            AOS.init({
-            easing: "ease",
-            duration: 1000,
-            delay: 300,
-            once: true,
-            disable: "mobile"
-            });
-
-            $("form").submit(function(event) {
-            Swal.fire({
-                type: "success",
-                title: "Your message has been sent",
-                showConfirmButton: false,
-                timer: 1500
-            });
-            });
+      $(function() {
+        let typed = new Typed(".type", {
+          strings: [
+            "Front-End Web Developer.",
+            "dog mom!",
+            "puzzle enthusiast!"
+          ],
+          typeSpeed: 70,
+          backDelay: 1200,
+          backSpeed: 43,
+          loop: true
         });
-        </script>
-    </body>
-    </html>
+
+        $("a").smoothScroll({
+          speed: 1000
+        });
+
+        $(".menu__burger, .navigation__menu").on("click", function() {
+          $(".menu__bg, .navigation__menu, .menu__burger").toggleClass("fs");
+          $(".menu__burger").text() == "☰"
+            ? $(".menu__burger").text("✕")
+            : $(".menu__burger").text("☰");
+        });
+
+        AOS.init({
+          easing: "ease",
+          duration: 1000,
+          delay: 300,
+          once: true,
+          disable: "mobile"
+        });
+
+        $("form").submit(function(event) {
+          Swal.fire({
+            type: "success",
+            title: "Your message has been sent",
+            showConfirmButton: false,
+            timer: 1500
+          });
+        });
+      });
+    </script>
+  </body>
+</html>
