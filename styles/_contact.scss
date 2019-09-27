@@ -1,9 +1,8 @@
     .contact-flex {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-evenly;
     padding: -100px 0px;
-
     }
 
     .form-style {
@@ -11,11 +10,13 @@
     }
 
     .links {
+        border: 2px solid tomato;
         // bottom: 20px;
         // right:20px;
         // position: fixed;
         li{
             list-style-type: none;
+            display: flex;
             display: inline-block;
             padding: 0 20px 0 20px;
 
@@ -127,5 +128,26 @@
 
     ::placeholder {
         color: #000;
+    }
+}
+
+// Media Queries 
+
+@media all and (max-width: 550px) {
+    .contact-flex{
+        flex-direction: column;
+        padding: -100px 0px;
+    
+
+    .links {
+        li{
+            display: inline-block;
+            padding: 0 20px 0 0px;
+        }
+        i {
+            font-size: 1.5rem;
+            color: $accent-color;
+        }
+    }
     }
 }

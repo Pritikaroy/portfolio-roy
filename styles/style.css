@@ -618,7 +618,7 @@ a {
 .skills {
   background-color: #f1f1f1;
   text-align: center;
-  padding: 150px 0px;
+  padding: 100px 0px;
   height: 65vh;
 }
 
@@ -683,13 +683,13 @@ a {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
 }
 
 .portfolio {
-  padding: 150px 10px;
+  padding: 150px -10px;
 }
 
 .portfolio h3 {
@@ -740,12 +740,12 @@ a {
   transition: all .5s;
 }
 
-.recent-work-info li {
+.portfolio__content .recent-work-info li {
   font-size: 2.3rem;
   display: inline;
 }
 
-.recent-work-info i {
+.portfolio__content .recent-work-info i {
   font-size: 3rem;
   padding: 10px;
   -webkit-box-pack: left;
@@ -846,9 +846,9 @@ a {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
   padding: -100px 0px;
 }
 
@@ -856,8 +856,15 @@ a {
   width: 100%;
 }
 
+.links {
+  border: 2px solid tomato;
+}
+
 .links li {
   list-style-type: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   display: inline-block;
   padding: 0 20px 0 20px;
 }
@@ -985,6 +992,24 @@ a {
 
 .contact ::placeholder {
   color: #000;
+}
+
+@media all and (max-width: 550px) {
+  .contact-flex {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: -100px 0px;
+  }
+  .contact-flex .links li {
+    display: inline-block;
+    padding: 0 20px 0 0px;
+  }
+  .contact-flex .links i {
+    font-size: 1.5rem;
+    color: #BB9A60;
+  }
 }
 
 footer {
