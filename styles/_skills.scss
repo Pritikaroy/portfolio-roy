@@ -1,7 +1,7 @@
 .skills {
     background-color: $bg-color-2;
     text-align: center;
-    padding: 100px 0px;
+    padding: 100px 100px;
     height: 65vh;
 
     h3 {
@@ -12,9 +12,10 @@
     &__list {
         ul {
             text-align: center;
+            padding-bottom: 50px;
         }
         li {
-            padding: 30px 80px 20px 50px;
+            padding: 30px 80px 50px 50px;
             display: inline-block;
             width: calc(100% / 7);
             flex-wrap: wrap;

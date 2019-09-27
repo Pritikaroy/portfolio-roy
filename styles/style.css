@@ -668,7 +668,7 @@ a {
 .skills {
   background-color: #f1f1f1;
   text-align: center;
-  padding: 100px 0px;
+  padding: 100px 100px;
   height: 65vh;
 }
 
@@ -679,10 +679,11 @@ a {
 
 .skills__list ul {
   text-align: center;
+  padding-bottom: 50px;
 }
 
 .skills__list li {
-  padding: 30px 80px 20px 50px;
+  padding: 30px 80px 50px 50px;
   display: inline-block;
   width: calc(100% / 7);
   -ms-flex-wrap: wrap;
