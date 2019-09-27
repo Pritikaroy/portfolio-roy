@@ -132,11 +132,10 @@
 
 // Media Queries 
 
-@media all and (max-width: 550px) {
+@media all and (max-width: 500px) {
     .contact-flex{
         flex-direction: column;
-        padding: -100px 0px;
-    
+        padding: -480px 0px;    
 
     .links {
         li{
