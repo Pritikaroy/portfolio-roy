@@ -1,5 +1,5 @@
     .menu {
-    font-family: $main-font;
+    // font-family: $main-font;
     position: fixed;
     width: 50px;
     height: 50px;
@@ -40,14 +40,18 @@
 
     }
     .navigation__menu{
-    position:absolute;
+    position: absolute;
+    font-family: $second-font;
+    text-transform: uppercase;
+    list-style-type: none;
+
     font-weight: bold;
-    font-size: 40px;
-    letter-spacing:10px;
+    font-size: 45px;
+    letter-spacing: 10px;
     
     text-align: center;
-    left: 50%;
-    top: 50%;
+    left: 45%;
+    top: 45%;
     transform: translate(-50%, -50%);
     opacity:0;
     transition: .4s;
@@ -100,7 +104,7 @@
     @media all and (max-width: 470px) {
     .navigation__menu {
         a {
-        font-size: 0.9rem;
+        font-size: 1rem;
         }
     }
     }
