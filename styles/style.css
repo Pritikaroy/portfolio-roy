@@ -1097,16 +1097,19 @@ footer .top {
 }
 
 footer .top .up {
-  width: 50px;
-  height: 50px;
-  background: #BB9A60;
+  width: 60px;
+  height: 60px;
   position: absolute;
   bottom: 10px;
-  padding: 10px;
+  padding: 20px;
   -webkit-transform: translate(-50%);
           transform: translate(-50%);
   text-align: center;
   color: #2C3E50;
+}
+
+footer .top .up:hover, footer .top .up:focus {
+  color: #BB9A60;
 }
 
 @media all and (max-width: 500px) {
