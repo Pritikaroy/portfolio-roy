@@ -246,7 +246,7 @@ a {
     font-size: 2rem;
   }
   h2 {
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
   h3 {
     font-size: 1.5rem;
@@ -255,7 +255,7 @@ a {
     font-size: 1.2rem;
   }
   p {
-    font-size: 1.2rem;
+    font-size: 1rem;
   }
 }
 
@@ -459,6 +459,61 @@ a {
   background-color: #141008;
 }
 
+@media all and (max-width: 1200px) {
+  .header-flex {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .logo img {
+    width: 10%;
+    margin-left: -10%;
+    margin-top: -3%;
+    z-index: 100;
+  }
+  .header {
+    min-height: 90vh;
+  }
+  .header__content {
+    margin-top: -10px;
+  }
+  .header__content .intro-pic {
+    padding: 0px 0px 0px 0px;
+    margin: -220px -100px 40px 480px;
+    background-color: #f1f1f1;
+  }
+  .header__content .intro-pic img {
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+    -webkit-box-shadow: 15px 15px 1px -5px #BB9A60;
+            box-shadow: 15px 15px 1px -5px #BB9A60;
+    width: 60%;
+  }
+  .header .arrow {
+    width: 30px;
+    height: 30px;
+    background: #BB9A60;
+    position: absolute;
+    bottom: 50px;
+    left: 50%;
+    -webkit-transform: translate(-50%);
+            transform: translate(-50%);
+    text-align: center;
+    color: #2C3E50;
+  }
+  .header .arrow i {
+    font-size: 1.5rem;
+    margin-top: 7px;
+  }
+  .header .arrow:hover {
+    background-color: #141008;
+  }
+}
+
 @media all and (max-width: 500px) {
   .header-flex {
     display: -webkit-box;
@@ -479,13 +534,7 @@ a {
     min-height: 90vh;
   }
   .header__content {
-    margin-top: -50px;
-  }
-  .header__content h1 {
-    font-size: 1.8rem;
-  }
-  .header__content h2 {
-    font-size: 1rem;
+    margin-top: -20px;
   }
   .header__content .intro-pic {
     -webkit-box-pack: center;
@@ -593,9 +642,6 @@ a {
   .about {
     padding: 20px 10px;
     margin: 50px 50px;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
   }
   .about h3 {
     margin-top: 50px;
@@ -689,7 +735,7 @@ a {
 }
 
 .portfolio {
-  padding: 150px -10px;
+  padding: 180px -10px;
 }
 
 .portfolio h3 {
@@ -754,15 +800,33 @@ a {
   color: #2C3E50;
 }
 
+@media all and (max-width: 1200px) {
+  .portfolio-flex {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+  }
+  .portfolio {
+    padding: 120px 10px;
+  }
+}
+
 @media all and (max-width: 1000px) {
   .portfolio-flex {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: vertical;
+    -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+        -ms-flex-direction: row;
+            flex-direction: row;
   }
   .portfolio__content {
     padding: 40px 0;
@@ -782,7 +846,7 @@ a {
     margin: 0 auto;
   }
   .portfolio__content--text-right, .portfolio__content--text-left {
-    width: 80%;
+    width: 90%;
     padding: 0;
     text-align: center;
     margin: 0 auto;
@@ -854,10 +918,6 @@ a {
 
 .form-style {
   width: 100%;
-}
-
-.links {
-  border: 2px solid tomato;
 }
 
 .links li {

@@ -5,7 +5,7 @@
 }
 
 .portfolio {
-    padding: 150px -10px;
+    padding: 180px -10px;
     h3 {
         text-align: center;
     }
@@ -89,10 +89,25 @@
 
 // Media Queries
 
+
+
+
+@media all and (max-width: 1200px) {
+    .portfolio-flex{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    }
+    .portfolio {
+        padding: 120px 10px;
+    }
+    
+}
+
 @media all and (max-width: 1000px) {
     .portfolio-flex{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     }
     .portfolio {
         &__content {
@@ -107,7 +122,7 @@
     
             &--text-right,
             &--text-left {
-                width: 80%;
+                width: 90%;
                 padding: 0;
                 text-align: center;
                 margin: 0 auto;
@@ -173,6 +188,5 @@
     }
 }
 }
-
 
 
