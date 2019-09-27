@@ -435,7 +435,7 @@ a {
   margin: 45px 0 -100px 420px;
   -webkit-box-shadow: 35px 35px 1px -15px #BB9A60;
           box-shadow: 35px 35px 1px -15px #BB9A60;
-  width: 100%;
+  width: 90%;
 }
 
 .arrow {
@@ -669,7 +669,7 @@ a {
   background-color: #f1f1f1;
   text-align: center;
   padding: 100px 100px;
-  height: 65vh;
+  height: 70vh;
 }
 
 .skills h3 {
@@ -740,7 +740,7 @@ a {
 }
 
 .portfolio {
-  padding: 200px -10px;
+  padding: 300px -10px;
 }
 
 .portfolio h3 {
