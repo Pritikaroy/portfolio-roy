@@ -272,8 +272,8 @@ a {
 
 .menu__bg {
   background: #BB9A60;
-  -webkit-transition: .3s;
-  transition: .3s;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
   right: 50px;
   top: 50px;
   -webkit-transform: translate3d(50%, -50%, 0);
@@ -294,8 +294,8 @@ a {
   color: #2C3E50;
   padding-top: 11px;
   cursor: pointer;
-  -webkit-transition: .4s;
-  transition: .4s;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
   -webkit-transform-origin: center;
           transform-origin: center;
 }
@@ -319,8 +319,8 @@ a {
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
   opacity: 0;
-  -webkit-transition: .4s;
-  transition: .4s;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
   pointer-events: none;
 }
 
@@ -427,7 +427,7 @@ a {
 .header__content .intro-pic {
   width: 90%;
   background-color: #2C3E50;
-  padding: 100px 200px 100px 200px;
+  padding: 100px 250px 100px 250px;
   margin: -400px 0 100px 100px;
 }
 
@@ -620,7 +620,9 @@ a {
 .about__content--text {
   width: 60%;
   font-family: "Lato", sans-serif;
-  text-align: left;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   margin-top: -90px;
   line-height: 1.2;
 }
@@ -737,7 +739,7 @@ a {
 }
 
 .portfolio {
-  padding: 220px -10px;
+  padding: 200px -10px;
 }
 
 .portfolio h3 {
