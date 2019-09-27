@@ -48,6 +48,32 @@ footer {
 
 //   media queries
 
+@media all and (max-width: 500px) {
+    footer {
+        .top {
+        bottom: 20px;
+        right: 40px;
+        position: fixed;
+
+            .up {
+            width: 30px;
+            height: 30px;
+            background: $accent-color;
+            // border-radius: 50%;
+            position: absolute;
+            // bottom: 10px;
+            padding: 10px;
+            // top: 10%;
+            // left: 50%;
+            transform: translate(-50%);
+            font-size: 1.5rem;
+            text-align: center;
+            color: $bg-color;
+            }
+        }
+    }
+}
+
 @media all and (max-width: 900px) {
 	footer {
         .links {

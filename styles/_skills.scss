@@ -1,7 +1,7 @@
 .skills {
     background-color: $bg-color-2;
     text-align: center;
-    padding: 100px 0px;
+    padding: 150px 0px;
     height: 65vh;
 
     h3 {
@@ -30,10 +30,7 @@
 @media all and (max-width: 950px) {
 	.skills {
         &__list {
-            svg {
-                width: 50px;
-                height: 50px;
-            }
+            
             li {
                 width: calc(100% / 5);
                 i {
@@ -46,14 +43,22 @@
 
 @media all and (max-width: 550px) {
 	.skills {
+        padding: 200px 0px;
+        margin-top: 0;
+        height: 65vh;
+
         &__list {
-            svg {
-                width: 40px;
-                height: 40px;
+            ul {
+                padding: 0;
             }
             li {
+                padding: 0 70px 0 20px;
+                margin: 5px;
+                width: calc(100% / 5);
+                // margin-left: 0;
+
                 i {
-                    font-size: 40px;
+                    font-size: 3rem;
                 }
             }
         }
