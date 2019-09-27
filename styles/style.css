@@ -270,6 +270,7 @@ a {
 }
 
 .menu__bg {
+  background: #BB9A60;
   -webkit-transition: 0.3s;
   transition: 0.3s;
   right: 50px;
@@ -1123,7 +1124,6 @@ footer .top .up:hover, footer .top .up:focus {
   footer .top .up {
     width: 30px;
     height: 30px;
-    background: #BB9A60;
     position: absolute;
     padding: 10px;
     -webkit-transform: translate(-50%);
