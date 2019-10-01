@@ -24,13 +24,15 @@
   &__content {
     // text-align: left;
     position: absolute;
-    top: 50%;
+    text-align: justify;
+
+    top: 55%;
     left: 40%;
     transform: translate(-50%, -50%);
 
     h1 {
       z-index: 100;
-      margin-top: 45%;
+      margin-top: 40%;
       margin-left: 15%;
       // line-height: 30px;
     }

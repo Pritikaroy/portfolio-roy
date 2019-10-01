@@ -248,7 +248,7 @@ a {
 
 @media all and (max-width: 500px) {
   h1 {
-    font-size: 2rem;
+    font-size: 1.8rem;
   }
   h2 {
     font-size: 1.2rem;
@@ -406,7 +406,8 @@ a {
 
 .header__content {
   position: absolute;
-  top: 50%;
+  text-align: justify;
+  top: 55%;
   left: 40%;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
@@ -414,7 +415,7 @@ a {
 
 .header__content h1 {
   z-index: 100;
-  margin-top: 45%;
+  margin-top: 40%;
   margin-left: 15%;
 }
 
@@ -625,7 +626,7 @@ a {
 .about__content--text {
   width: 60%;
   font-family: "Lato", sans-serif;
-  text-align: right;
+  text-align: justify;
   margin-top: -90px;
   line-height: 1.2;
 }
@@ -727,6 +728,12 @@ a {
           justify-content: left;
 }
 
+.skills__list li p {
+  text-align: center;
+  font-weight: bold;
+  text-align: justify;
+}
+
 .skills__list li i {
   font-size: 4rem;
   color: #2C3E50;
@@ -741,22 +748,22 @@ a {
   }
 }
 
-@media all and (max-width: 550px) {
+@media all and (max-width: 500px) {
   .skills {
     padding: 200px 0px;
     margin-top: 0;
-    height: 65vh;
+    height: 50vh;
   }
   .skills__list ul {
     padding: 0;
   }
   .skills__list li {
-    padding: 0 70px 0 20px;
+    padding: 0 70px 0 10px;
     margin: 5px;
-    width: calc(100% / 8);
+    width: calc(100% / 7);
   }
   .skills__list li i {
-    font-size: 2rem;
+    font-size: 3rem;
   }
 }
 
@@ -809,6 +816,7 @@ a {
 
 .portfolio__content--text-right, .portfolio__content--text-left {
   width: 60%;
+  text-align: justify;
 }
 
 .portfolio__content a {
@@ -982,7 +990,6 @@ a {
 
 .contact {
   background-color: #f1f1f1;
-  border: 2px solid tomato;
   padding: 0px 0;
   margin-bottom: 1rem;
   width: 100%;
