@@ -248,7 +248,6 @@ a {
 @media all and (max-width: 500px) {
   .wrapper {
     margin: 0 auto;
-    overflow: auto;
   }
   h1 {
     font-size: 1.8rem;
