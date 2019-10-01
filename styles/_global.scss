@@ -55,6 +55,12 @@ a {
     color: $bg-color;
 }
 
+
+.content-block {
+  height: 30vh;
+  background: $bg-color-2;
+  z-index: 30;
+}
 // .particles canvas{
 //     position: absolute;
 //     width: 100%;
@@ -82,6 +88,8 @@ a {
     p{
         font-size: 1rem;
     }
+
+    
 }
 
 

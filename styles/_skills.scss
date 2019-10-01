@@ -19,7 +19,7 @@
             display: inline-block;
             width: calc(100% / 7);
             flex-wrap: wrap;
-            justify-content: center;
+            justify-content: left;
             i {
                 font-size: 4rem;
                 color: $bg-color;
@@ -27,6 +27,30 @@
         }
     }
 }
+
+// .chevron {
+//     width: 50px;
+//     height: 50px;
+//     margin-top: 15%;
+//     background: $accent-color;
+//     display: flex;
+//     justify-content: center;
+//     position: absolute;
+//     // bottom: -100px;
+//     // left: 10%;
+//     transform: translate(-50%);
+//     text-align: center;
+//     color: $bg-color;
+
+//     i {
+//         font-size: 1.5rem;
+//         margin-top: 15px;
+//     }
+
+//     &:hover {
+//         background-color: darken($accent-color, 50%);
+//     }
+// }
 
 @media all and (max-width: 950px) {
 	.skills {
@@ -55,11 +79,11 @@
             li {
                 padding: 0 70px 0 20px;
                 margin: 5px;
-                width: calc(100% / 5);
+                width: calc(100% / 8);
                 // margin-left: 0;
 
                 i {
-                    font-size: 3rem;
+                    font-size: 2rem;
                 }
             }
         }

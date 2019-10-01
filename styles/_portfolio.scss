@@ -173,19 +173,26 @@
         &--text-left {
             width: 100%;
         }
+
+        a{
+        font-size: 1rem;
+        text-decoration: none;
+    }
         }
     }
 
     .recent-work-info{
     
     li{
-        font-size: 2rem;
+        font-size: 1rem;
         display: inline;
     }
     i{
-        font-size: 2rem;
-        // padding: 10px;
-        justify-content: left;
+        font-size: .5rem;
+        padding: 0;
+        margin: 0;
+        display: inline-block;
+        justify-content: center;
         color: $bg-color;
     }
 }

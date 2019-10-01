@@ -31,8 +31,8 @@
         &--text {
             width: 60%;
             font-family: $second-font;
-            // text-align: left;
-            align-items: center;
+            text-align: right;
+            // align-items: center;
             margin-top: -90px;
             line-height: 1.2;
         }
@@ -45,6 +45,31 @@
     border-bottom: 2px solid $bg-color;
     &:hover {
         font-weight: 700;
+    }
+}
+
+.chevron {
+    width: 50px;
+    height: 50px;
+    margin-top: 15%;
+    background: $accent-color;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: left;
+    position: absolute;
+    // bottom: -100px;
+    // left: 10%;
+    transform: translate(-50%);
+    text-align: center;
+    color: $bg-color;
+
+    i {
+        font-size: 1.5rem;
+        margin-top: 15px;
+    }
+
+    &:hover {
+        background-color: darken($accent-color, 50%);
     }
 }
 
