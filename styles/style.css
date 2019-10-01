@@ -566,9 +566,6 @@ a {
             box-shadow: 15px 15px 1px -5px #BB9A60;
     width: 60%;
   }
-  .header .arrow {
-    display: none;
-  }
 }
 
 @media all and (max-width: 720px) {
