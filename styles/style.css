@@ -430,14 +430,14 @@ a {
   font-size: 1.2rem;
 }
 
-.header__content .intro-pic {
+.header .intro-pic {
   width: 90%;
   background-color: #2C3E50;
   padding: 100px 250px 100px 250px;
   margin: -400px 0 100px 100px;
 }
 
-.header__content .intro-pic img {
+.header .intro-pic img {
   margin: 45px 0 -100px 420px;
   -webkit-box-shadow: 35px 35px 1px -15px #BB9A60;
           box-shadow: 35px 35px 1px -15px #BB9A60;
@@ -539,10 +539,13 @@ a {
     z-index: 100;
   }
   .header {
-    min-height: 90vh;
+    min-height: 80vh;
   }
   .header__content {
     margin-top: -20px;
+  }
+  .header__content h2 {
+    font-size: .7rem;
   }
   .header__content .intro-pic {
     -webkit-box-pack: center;
@@ -1111,7 +1114,7 @@ a {
     padding: 0 20px 0 0px;
   }
   .contact-flex .links i {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     color: #BB9A60;
   }
 }
