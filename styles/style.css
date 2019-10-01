@@ -1007,8 +1007,9 @@ a {
 }
 
 .portfolio__content a.btn {
-  padding: 10px 10px 10px 10px;
+  padding: 10px 30px 10px 30px;
   background-color: #BB9A60;
+  margin-top: 20px;
   color: #fff;
 }
 
@@ -1023,7 +1024,7 @@ a {
 .portfolio__content .recent-work-info li {
   font-size: .9rem;
   display: inline-block;
-  padding: 10px;
+  padding: 5px;
   color: #2C3E50;
 }
 
