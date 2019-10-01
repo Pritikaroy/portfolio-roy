@@ -39,6 +39,8 @@
 
         a{
             font-size: 1.4rem;
+            text-decoration: none;
+
         }
 
         // p:nth-of-type(1) {
@@ -77,15 +79,18 @@
         .recent-work-info{
     
         li{
-            font-size: 2.3rem;
-            display: inline;
-        }
-        i{
-            font-size: 3rem;
+            font-size: .9rem;
+            display: inline-block;
             padding: 10px;
-            justify-content: left;
+            // justify-content: left;
             color: $bg-color;
         }
+        // i{
+        //     font-size: 3rem;
+        //     padding: 10px;
+        //     justify-content: left;
+        //     color: $bg-color;
+        // }
         }
     }
 }
@@ -189,14 +194,14 @@
         font-size: 1rem;
         display: inline;
     }
-    i{
-        font-size: .5rem;
-        padding: 0;
-        margin: 0;
-        display: inline-block;
-        justify-content: center;
-        color: $bg-color;
-    }
+    // i{
+    //     font-size: .5rem;
+    //     padding: 0;
+    //     margin: 0;
+    //     display: inline-block;
+    //     justify-content: center;
+    //     color: $bg-color;
+    // }
 }
 }
 
