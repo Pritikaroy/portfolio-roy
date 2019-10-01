@@ -603,7 +603,7 @@ a {
     min-height: 80vh;
   }
   .header__content {
-    margin-top: -80px;
+    margin-top: -50px;
   }
   .header__content h1 {
     font-size: 1.4rem;
