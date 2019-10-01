@@ -1,6 +1,7 @@
 .header-flex {
   display: flex;
   flex-direction: row;
+  // flex-wrap: wrap;
   justify-content: space-between;
 }
 
@@ -151,7 +152,105 @@
   }
 }
 
+@media all and (max-width: 900px) {
+  .header-flex {
+    display: flex;
+    flex-direction: column;
+  }
+  .logo img {
+    width: 10%;
+    margin-left: -1%;
+    margin-top: 5%;
+    z-index: 100;
+  }
+  
+  .header {
+    // width: 10%;
+    // margin-top: 100%;
+    min-height: 80vh;
 
+    &__content {
+      //   background-color: pink;
+      margin-top: -200px;
+
+      h1 {
+        font-size: 1.8rem;
+      }
+      h2 {
+        font-size: 1.5rem;
+      }
+      // .space {
+      //   height: 5vh;
+      // }
+      .intro-pic {
+        justify-content: center;
+        padding: 0px 0px 0px 0px;
+        margin: 40px 10px 20px 10px;
+        background-color: $bg-color-2;
+
+        img {
+          padding: 0px 0px 0px 0px;
+          margin: 0px 0px 0px 300px;
+          box-shadow: 15px 15px 1px -5px $accent-color;
+          width: 60%;
+        }
+      }
+    }
+
+    .arrow {
+      display: none;
+    }
+  }
+}
+
+@media all and (max-width: 720px) {
+  .header-flex {
+    display: flex;
+    flex-direction: column;
+  }
+  .logo img {
+    width: 15%;
+    margin-left: -1%;
+    margin-top: 5%;
+    z-index: 100;
+  }
+
+  .header {
+    // width: 10%;
+    // margin-top: 100%;
+    min-height: 80vh;
+
+    &__content {
+      //   background-color: pink;
+      margin-top: -200px;
+
+      h1 {
+        font-size: 1.8rem;
+      }
+      h2 {
+        font-size: 1.2rem;
+      }
+      // .space {
+      //   height: 5vh;
+      // }
+      .intro-pic {
+        justify-content: center;
+        padding: 0px 0px 0px 0px;
+        margin: 40px 10px 20px 10px;
+        background-color: $bg-color-2;
+
+        img {
+          padding: 0px 0px 0px 0px;
+          margin: 0px 0px 0px 0px;
+          box-shadow: 15px 15px 1px -5px $accent-color;
+          width: 80%;
+        }
+      }
+    }
+
+    
+  }
+}
 
 @media all and (max-width: 500px) {
   .header-flex {

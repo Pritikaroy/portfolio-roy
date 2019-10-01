@@ -8,7 +8,6 @@ $second-font: 'Lato', sans-serif;
 
 .wrapper {
     max-width: 1280px;
-    overflow: hidden;
     // min-width: 
     margin: 0 auto;
     width: 80%;
@@ -59,9 +58,9 @@ a {
 
 
 .content-block {
-  height: 35vh;
+  height: 30vh;
   background: $bg-color-2;
-  z-index: 30;
+//   z-index: 30;
 }
 // .particles canvas{
 //     position: absolute;
@@ -72,6 +71,10 @@ a {
 // }
 
 @media all and (max-width: 500px) {
+    .wrapper{
+        margin: 0 auto;
+        // overflow: hidden;
+    }
     h1 {
         font-size: 1.8rem;
         }
