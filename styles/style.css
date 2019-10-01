@@ -406,7 +406,6 @@ a {
 
 .header__content {
   position: absolute;
-  text-align: justify;
   top: 55%;
   left: 40%;
   -webkit-transform: translate(-50%, -50%);
@@ -545,7 +544,7 @@ a {
     margin-top: -20px;
   }
   .header__content h2 {
-    font-size: .7rem;
+    font-size: .6rem;
   }
   .header__content .intro-pic {
     -webkit-box-pack: center;
