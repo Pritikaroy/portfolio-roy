@@ -194,6 +194,7 @@ legend, button::-moz-focus-inner, input::-moz-focus-inner {
 
 .wrapper {
   max-width: 1280px;
+  overflow: hidden;
   margin: 0 auto;
   width: 80%;
 }
@@ -1141,7 +1142,7 @@ footer p {
 }
 
 footer a {
-  font-size: 1.2rem;
+  font-size: 1rem;
 }
 
 footer .top {
