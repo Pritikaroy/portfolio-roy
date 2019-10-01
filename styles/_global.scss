@@ -58,7 +58,7 @@ a {
 
 
 .content-block {
-  height: 30vh;
+  height: 35vh;
   background: $bg-color-2;
 //   z-index: 30;
 }
@@ -73,7 +73,7 @@ a {
 @media all and (max-width: 500px) {
     .wrapper{
         margin: 0 auto;
-        // overflow: hidden;
+        overflow: auto;
     }
     h1 {
         font-size: 1.8rem;
